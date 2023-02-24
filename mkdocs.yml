@@ -1,0 +1,120 @@
+site_name: happyhammer
+site_url: https://happyhammer.gitlab.com/
+nav:
+    - Home: index.md
+    - Python: 
+        - python/index.md
+        - Python基础:
+            - 数据类型: python/foundation/datatype.md
+            - 循环: python/foundation/loop.md
+            - 分支语句: python/foundation/branch.md
+            - 关系表达式与逻辑运算符: python/foundation/expressions.md
+            - 函数: python/foundation/function.md
+            - IO文件流: python/foundation/io.md
+            - 类与对象: python/foundation/class.md
+        - Python独有特性:
+            - 模块与包: python/advanced/package.md
+            - 装饰器: python/advanced/decorator.md
+            - 迭代器: python/advanced/iterator.md
+            - 生成器: python/advanced/generator.md
+            - 上下文管理器: python/advanced/context.md
+        - 编程规范:
+            - rule1: python/specifications/rule1.md
+        - Python环境管理:
+            - venv: python/environments/venv.md
+            - Poetry: python/environments/poetry.md
+            - Miniconda: python/environments/miniconda.md
+        - Python实用工具:
+            - 日志处理: python/tools/log.md
+            - 路径操作: python/tools/path.md
+            - 性能分析: python/tools/performance.md
+            - 代码调试: python/tools/debug.md
+            - 邮件处理: python/tools/email.md
+            - 参数解析: python/tools/parameter.md
+        - Python并发:
+            - 多线程: python/concurrent/multithreading.md
+            - 多进程: python/concurrent/multiprocess.md
+            - 协程/异步编程: python/concurrent/coroutine.md
+        - Effective Python:
+            - rule1: python/effectivepy/rule1.md
+    - C++: 
+        - cpp/index.md
+        - C++扩展Python:
+            - 如何选择Python与C++的胶水: cpp/pycpp/choice.md
+            - pybind11: cpp/pycpp/pybind11.md
+    - 实用工具:
+        - 数据处理:
+            - functools/dp/index.md
+            - Numpy:
+                - Numpy: functools/dp/numpy/index.md
+            - Numba:
+                - Numba: functools/dp/numba/index.md
+            - Pandas:
+                - Pandas: functools/dp/pandas/index.md
+            - Swifter:
+                - Swifter: functools/dp/swifter/index.md
+        - 数据可视化:
+            - Matplotlib:
+                - Matplotlib: functools/dv/matplotlib/index.md
+            - seaborn:
+                - seaborn: functools/dv/seaborn/index.md
+        - 科学计算:
+            - Scipy:
+                - Scipy: functools/sc/scipy/index.md
+        - 版本管理与WorkFlow:
+            - functools/gitstacks/index.md
+            - 工作流: functools/gitstacks/workflow.md
+        - 软件配置:
+            - functools/config/index.md
+            - Jupyter: functools/config/jupyter.md
+        - 小技巧:
+            - functools/tips/index.md
+            - Python代码分块技巧: functools/tips/codeblock.md
+    - 容器:
+        - container/index.md
+        - Docker:
+            - Docker体系: container/docker/overview.md
+        - Kubernetes:
+            - Kubernetes体系: container/k8s/overview.md
+    - 数据结构与算法:
+        - dsalgorithms/index.md
+        - 树结构:
+            - 树树树: dsalgorithms/tree/tree.md
+        - 图结构:
+            - 图图图: dsalgorithms/graph/graph.md
+    - 操作系统:
+        - os/index.md
+    - 写作:
+        - Markdown:
+            - write/markdown/index.md
+        - Mkdocs:
+            - write/mkdocs/index.md
+    - 好的文章:
+        - goodarticle/index.md
+        - 程序员如何构建知识体系: goodarticle/howtobuildsystem.md
+        - 如何学习和阅读代码: goodarticle/howtolearncode.md
+
+theme:
+    name: material
+    favicon: images/favicon.jpeg
+    logo: images/favicon.jpeg
+    language: zh
+    features:
+        - content.code.copy
+        - navigation.tabs # 顶部显示导航顶层nav（也就是第一个节点）
+        - navigation.tabs.sticky # 滚动时隐藏顶部nav，配合navigation.tabs使用
+        - navigation.tracking # 在url中使用标题定位锚点
+        # - navigation.expand # 不折叠左侧nav节点
+        # - navigation.sections # nav节点缩进
+        - navigation.path
+        - navigation.top # 一键回顶部
+        - navigation.instant # 启用即时加载
+        - navigation.indexes
+        - toc.follow
+markdown_extensions:
+    - pymdownx.highlight:
+        anchor_linenums: true
+        linenums: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
