@@ -11,13 +11,13 @@
         <link rel="canonical" href="https://happyhammer.gitlab.com/python/advanced/package/">
       
       
-        <link rel="prev" href="../../foundation/class/">
+        <link rel="prev" href="../../base/class/">
       
       
         <link rel="next" href="../decorator/">
       
       <link rel="icon" href="../../../images/favicon.jpeg">
-      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.12">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.14">
     
     
       
@@ -25,10 +25,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.0d440cfe.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.113286f1.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.2505c338.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.a0c5b2b5.min.css">
       
       
 
@@ -146,7 +146,7 @@
     
       
 <nav class="md-tabs" aria-label="标签" data-md-component="tabs">
-  <div class="md-tabs__inner md-grid">
+  <div class="md-grid">
     <ul class="md-tabs__list">
       
         
@@ -465,7 +465,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../foundation/datatype/" class="md-nav__link">
+      <a href="../../base/datatype/" class="md-nav__link">
         数据类型
       </a>
     </li>
@@ -479,7 +479,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../foundation/loop/" class="md-nav__link">
+      <a href="../../base/loop/" class="md-nav__link">
         循环
       </a>
     </li>
@@ -493,7 +493,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../foundation/branch/" class="md-nav__link">
+      <a href="../../base/branch/" class="md-nav__link">
         分支语句
       </a>
     </li>
@@ -507,7 +507,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../foundation/expressions/" class="md-nav__link">
+      <a href="../../base/expressions/" class="md-nav__link">
         关系表达式与逻辑运算符
       </a>
     </li>
@@ -521,7 +521,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../foundation/function/" class="md-nav__link">
+      <a href="../../base/function/" class="md-nav__link">
         函数
       </a>
     </li>
@@ -535,7 +535,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../foundation/io/" class="md-nav__link">
+      <a href="../../base/io/" class="md-nav__link">
         IO文件流
       </a>
     </li>
@@ -549,7 +549,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../foundation/class/" class="md-nav__link">
+      <a href="../../base/class/" class="md-nav__link">
         类与对象
       </a>
     </li>
@@ -727,7 +727,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../specifications/rule1/" class="md-nav__link">
+      <a href="../../specs/rule1/" class="md-nav__link">
         rule1
       </a>
     </li>
@@ -783,7 +783,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../environments/venv/" class="md-nav__link">
+      <a href="../../env/venv/" class="md-nav__link">
         venv
       </a>
     </li>
@@ -797,7 +797,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../environments/poetry/" class="md-nav__link">
+      <a href="../../env/poetry/" class="md-nav__link">
         Poetry
       </a>
     </li>
@@ -811,7 +811,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../environments/miniconda/" class="md-nav__link">
+      <a href="../../env/miniconda/" class="md-nav__link">
         Miniconda
       </a>
     </li>
@@ -1079,7 +1079,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../effectivepy/rule1/" class="md-nav__link">
+      <a href="../../effectpy/rule1/" class="md-nav__link">
         rule1
       </a>
     </li>
@@ -2502,6 +2502,7 @@
                   
 
 
+  <h1>模块与包</h1>
 
 
 
@@ -2546,10 +2547,10 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.copy", "navigation.tabs", "navigation.tabs.sticky", "navigation.tracking", "navigation.path", "navigation.top", "navigation.instant", "navigation.indexes", "toc.follow"], "search": "../../../assets/javascripts/workers/search.db81ec45.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.copy", "navigation.tabs", "navigation.tabs.sticky", "navigation.tracking", "navigation.path", "navigation.top", "navigation.instant", "navigation.indexes", "toc.follow"], "search": "../../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.4b2c34cd.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.2a6f1dda.min.js"></script>
       
     
   </body>

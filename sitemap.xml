@@ -2,287 +2,287 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://happyhammer.gitlab.com/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/container/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/container/docker/overview/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/container/k8s/overview/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/cpp/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/cpp/pycpp/choice/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/cpp/pycpp/pybind11/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/dsalgorithms/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/dsalgorithms/graph/graph/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/dsalgorithms/tree/tree/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/functools/config/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/functools/config/jupyter/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/functools/dp/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/functools/dp/numba/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/functools/dp/numpy/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/functools/dp/pandas/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/functools/dp/swifter/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/functools/dv/matplotlib/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/functools/dv/seaborn/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/functools/gitstacks/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/functools/gitstacks/workflow/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/functools/sc/scipy/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/functools/tips/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/functools/tips/codeblock/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/goodarticle/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/goodarticle/howtobuildsystem/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/goodarticle/howtolearncode/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/os/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/python/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/python/advanced/context/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/python/advanced/decorator/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/python/advanced/generator/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/python/advanced/iterator/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/python/advanced/package/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://happyhammer.gitlab.com/python/base/branch/</loc>
+         <lastmod>2023-02-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://happyhammer.gitlab.com/python/base/class/</loc>
+         <lastmod>2023-02-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://happyhammer.gitlab.com/python/base/datatype/</loc>
+         <lastmod>2023-02-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://happyhammer.gitlab.com/python/base/expressions/</loc>
+         <lastmod>2023-02-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://happyhammer.gitlab.com/python/base/function/</loc>
+         <lastmod>2023-02-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://happyhammer.gitlab.com/python/base/io/</loc>
+         <lastmod>2023-02-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://happyhammer.gitlab.com/python/base/loop/</loc>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/python/concurrent/coroutine/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/python/concurrent/multiprocess/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/python/concurrent/multithreading/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://happyhammer.gitlab.com/python/effectivepy/rule1/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <loc>https://happyhammer.gitlab.com/python/effectpy/rule1/</loc>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://happyhammer.gitlab.com/python/environments/miniconda/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <loc>https://happyhammer.gitlab.com/python/env/miniconda/</loc>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://happyhammer.gitlab.com/python/environments/poetry/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <loc>https://happyhammer.gitlab.com/python/env/poetry/</loc>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://happyhammer.gitlab.com/python/environments/venv/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <loc>https://happyhammer.gitlab.com/python/env/venv/</loc>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://happyhammer.gitlab.com/python/foundation/branch/</loc>
-         <lastmod>2023-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://happyhammer.gitlab.com/python/foundation/class/</loc>
-         <lastmod>2023-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://happyhammer.gitlab.com/python/foundation/datatype/</loc>
-         <lastmod>2023-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://happyhammer.gitlab.com/python/foundation/expressions/</loc>
-         <lastmod>2023-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://happyhammer.gitlab.com/python/foundation/function/</loc>
-         <lastmod>2023-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://happyhammer.gitlab.com/python/foundation/io/</loc>
-         <lastmod>2023-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://happyhammer.gitlab.com/python/foundation/loop/</loc>
-         <lastmod>2023-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://happyhammer.gitlab.com/python/specifications/rule1/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <loc>https://happyhammer.gitlab.com/python/specs/rule1/</loc>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/python/tools/debug/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/python/tools/email/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/python/tools/log/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/python/tools/parameter/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/python/tools/path/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/python/tools/performance/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/write/markdown/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://happyhammer.gitlab.com/write/mkdocs/</loc>
-         <lastmod>2023-02-24</lastmod>
+         <lastmod>2023-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
