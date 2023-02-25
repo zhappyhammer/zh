@@ -5,13 +5,13 @@ nav:
     - Python: 
         - python/index.md
         - Python基础:
-            - 数据类型: python/foundation/datatype.md
-            - 循环: python/foundation/loop.md
-            - 分支语句: python/foundation/branch.md
-            - 关系表达式与逻辑运算符: python/foundation/expressions.md
-            - 函数: python/foundation/function.md
-            - IO文件流: python/foundation/io.md
-            - 类与对象: python/foundation/class.md
+            - 数据类型: python/base/datatype.md
+            - 循环: python/base/loop.md
+            - 分支语句: python/base/branch.md
+            - 关系表达式与逻辑运算符: python/base/expressions.md
+            - 函数: python/base/function.md
+            - IO文件流: python/base/io.md
+            - 类与对象: python/base/class.md
         - Python独有特性:
             - 模块与包: python/advanced/package.md
             - 装饰器: python/advanced/decorator.md
@@ -19,11 +19,11 @@ nav:
             - 生成器: python/advanced/generator.md
             - 上下文管理器: python/advanced/context.md
         - 编程规范:
-            - rule1: python/specifications/rule1.md
+            - rule1: python/specs/rule1.md
         - Python环境管理:
-            - venv: python/environments/venv.md
-            - Poetry: python/environments/poetry.md
-            - Miniconda: python/environments/miniconda.md
+            - venv: python/env/venv.md
+            - Poetry: python/env/poetry.md
+            - Miniconda: python/env/miniconda.md
         - Python实用工具:
             - 日志处理: python/tools/log.md
             - 路径操作: python/tools/path.md
@@ -36,7 +36,7 @@ nav:
             - 多进程: python/concurrent/multiprocess.md
             - 协程/异步编程: python/concurrent/coroutine.md
         - Effective Python:
-            - rule1: python/effectivepy/rule1.md
+            - rule1: python/effectpy/rule1.md
     - C++: 
         - cpp/index.md
         - C++扩展Python:
