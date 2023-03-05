@@ -79,9 +79,9 @@ PYBIND11_MODULE(example, m) {
 
 6. Cython封装继承类就更加麻烦了，不仅要处理方法重载，还要复制继承关系，十分繁复。
 
-7. Cython无法利用上C++的宏定义，这对支持条件编译非常不利，很多时候还需要自己利用Cython的条件语句翻译一套条件编译的逻辑。
+7. Cython无法利用上C++的宏定义，这对支持条件编译非常不利，很多时候还需要自己利用[Cython的条件语句](https://cython.readthedocs.io/en/latest/src/userguide/language_basics.html#conditional-statements)翻译一套条件编译的逻辑。
 
-8. Cython似乎在封装上比pybind11性能好，参见pybind11#1227和pybind#2005。如果你的代码需要经常调用封装后的函数，那么选择Cython性能更好。
+8. Cython似乎在封装上比pybind11性能好，参见[pybind11#1227](https://github.com/pybind/pybind11/issues/1227)和[pybind#2005](https://github.com/pybind/pybind11/issues/2005)。如果你的代码需要经常调用封装后的函数，那么选择Cython性能更好。
 
 以前很多人使用Cython的原因是Cython可以很方便地加速Python代码，但是numba.jit的出现则让这个功能实际上成了鸡肋，因此Cython最近的使用率也是越来越低了。如果没有很强的对保留模板灵活性的需求，或者不是封装目标不是基于C语言的，那还是选择pybind11来的方便。如果封装接口只是一小部分需求的话也还是用Cython会更加一致，我在自己的PCL绑定项目中使用Cython的原因是有大量基于Python的扩展代码，因此使用Cython还是能更方便。
 

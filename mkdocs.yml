@@ -96,8 +96,8 @@ nav:
 
 theme:
     name: material
-    favicon: images/favicon.jpeg
-    logo: images/favicon.jpeg
+    favicon: images/favicon.ico
+    logo: images/logo.jpeg
     language: zh
     features:
         - content.code.copy
