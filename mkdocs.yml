@@ -91,8 +91,9 @@ nav:
             - write/mkdocs/index.md
     - 好的文章:
         - goodarticle/index.md
+        - 高效学习:
+            - 如何学习和阅读代码: goodarticle/effstudy/learncode.md
         - 程序员如何构建知识体系: goodarticle/howtobuildsystem.md
-        - 如何学习和阅读代码: goodarticle/howtolearncode.md
 
 theme:
     name: material
