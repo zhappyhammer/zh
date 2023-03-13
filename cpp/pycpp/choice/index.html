@@ -16,8 +16,8 @@
       
         <link rel="next" href="../pybind11/">
       
-      <link rel="icon" href="../../../images/favicon.jpeg">
-      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.14">
+      <link rel="icon" href="../../../images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.15">
     
     
       
@@ -87,7 +87,7 @@
   <nav class="md-header__inner md-grid" aria-label="页眉">
     <a href="../../.." title="happyhammer" class="md-header__button md-logo" aria-label="happyhammer" data-md-component="logo">
       
-  <img src="../../../images/favicon.jpeg" alt="logo">
+  <img src="../../../images/logo.jpeg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -339,7 +339,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="../../.." title="happyhammer" class="md-nav__button md-logo" aria-label="happyhammer" data-md-component="logo">
       
-  <img src="../../../images/favicon.jpeg" alt="logo">
+  <img src="../../../images/logo.jpeg" alt="logo">
 
     </a>
     happyhammer
@@ -2501,10 +2501,48 @@
   
   
   
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_2" >
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_9_2" id="__nav_9_2_label" tabindex="0">
+          高效学习
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_9_2">
+          <span class="md-nav__icon md-icon"></span>
+          高效学习
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../../../goodarticle/howtobuildsystem/" class="md-nav__link">
-        程序员如何构建知识体系
+      <a href="../../../goodarticle/effstudy/learncode/" class="md-nav__link">
+        如何学习和阅读代码
       </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -2516,8 +2554,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../goodarticle/howtolearncode/" class="md-nav__link">
-        如何学习和阅读代码
+      <a href="../../../goodarticle/howtobuildsystem/" class="md-nav__link">
+        程序员如何构建知识体系
       </a>
     </li>
   
@@ -2700,10 +2738,10 @@
 <p>Cython封装继承类就更加麻烦了，不仅要处理方法重载，还要复制继承关系，十分繁复。</p>
 </li>
 <li>
-<p>Cython无法利用上C++的宏定义，这对支持条件编译非常不利，很多时候还需要自己利用Cython的条件语句翻译一套条件编译的逻辑。</p>
+<p>Cython无法利用上C++的宏定义，这对支持条件编译非常不利，很多时候还需要自己利用<a href="https://cython.readthedocs.io/en/latest/src/userguide/language_basics.html#conditional-statements">Cython的条件语句</a>翻译一套条件编译的逻辑。</p>
 </li>
 <li>
-<p>Cython似乎在封装上比pybind11性能好，参见pybind11#1227和pybind#2005。如果你的代码需要经常调用封装后的函数，那么选择Cython性能更好。</p>
+<p>Cython似乎在封装上比pybind11性能好，参见<a href="https://github.com/pybind/pybind11/issues/1227">pybind11#1227</a>和<a href="https://github.com/pybind/pybind11/issues/2005">pybind#2005</a>。如果你的代码需要经常调用封装后的函数，那么选择Cython性能更好。</p>
 </li>
 </ol>
 <p>以前很多人使用Cython的原因是Cython可以很方便地加速Python代码，但是numba.jit的出现则让这个功能实际上成了鸡肋，因此Cython最近的使用率也是越来越低了。如果没有很强的对保留模板灵活性的需求，或者不是封装目标不是基于C语言的，那还是选择pybind11来的方便。如果封装接口只是一小部分需求的话也还是用Cython会更加一致，我在自己的PCL绑定项目中使用Cython的原因是有大量基于Python的扩展代码，因此使用Cython还是能更方便。</p>

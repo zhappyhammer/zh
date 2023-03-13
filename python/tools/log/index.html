@@ -16,8 +16,8 @@
       
         <link rel="next" href="../path/">
       
-      <link rel="icon" href="../../../images/favicon.jpeg">
-      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.14">
+      <link rel="icon" href="../../../images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.15">
     
     
       
@@ -68,6 +68,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -82,7 +87,7 @@
   <nav class="md-header__inner md-grid" aria-label="页眉">
     <a href="../../.." title="happyhammer" class="md-header__button md-logo" aria-label="happyhammer" data-md-component="logo">
       
-  <img src="../../../images/favicon.jpeg" alt="logo">
+  <img src="../../../images/logo.jpeg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -334,7 +339,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="../../.." title="happyhammer" class="md-nav__button md-logo" aria-label="happyhammer" data-md-component="logo">
       
-  <img src="../../../images/favicon.jpeg" alt="logo">
+  <img src="../../../images/logo.jpeg" alt="logo">
 
     </a>
     happyhammer
@@ -871,10 +876,202 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          日志处理
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         日志处理
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#0" class="md-nav__link">
+    0.概述
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1logging" class="md-nav__link">
+    1.logging
+  </a>
+  
+    <nav class="md-nav" aria-label="1.logging">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    1.1使用日志模块
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    1.2日志级别
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13" class="md-nav__link">
+    1.3输出格式
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-handler" class="md-nav__link">
+    1.4 Handler
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-traceback" class="md-nav__link">
+    1.5 捕获Traceback
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16" class="md-nav__link">
+    1.6 配置共享
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17" class="md-nav__link">
+    1.7文件配置
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18" class="md-nav__link">
+    1.8禁用日志
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#19" class="md-nav__link">
+    1.9 日志输出格式化
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2loguru" class="md-nav__link">
+    2.loguru
+  </a>
+  
+    <nav class="md-nav" aria-label="2.loguru">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    2.1使用示例
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-add" class="md-nav__link">
+    2.2 add()方法
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-sink" class="md-nav__link">
+    2.3 sink参数
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24" class="md-nav__link">
+    2.4 其他参数
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-rotation" class="md-nav__link">
+    2.5 rotation配置
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-retention" class="md-nav__link">
+    2.6 retention 配置
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#27-compression" class="md-nav__link">
+    2.7 compression 配置
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#28" class="md-nav__link">
+    2.8 字符串格式化
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#29-traceback" class="md-nav__link">
+    2.9 Traceback记录
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    3.参考内容
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2442,10 +2639,48 @@
   
   
   
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_2" >
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_9_2" id="__nav_9_2_label" tabindex="0">
+          高效学习
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_9_2">
+          <span class="md-nav__icon md-icon"></span>
+          高效学习
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../../../goodarticle/howtobuildsystem/" class="md-nav__link">
-        程序员如何构建知识体系
+      <a href="../../../goodarticle/effstudy/learncode/" class="md-nav__link">
+        如何学习和阅读代码
       </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -2457,8 +2692,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../goodarticle/howtolearncode/" class="md-nav__link">
-        如何学习和阅读代码
+      <a href="../../../goodarticle/howtobuildsystem/" class="md-nav__link">
+        程序员如何构建知识体系
       </a>
     </li>
   
@@ -2488,6 +2723,182 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#0" class="md-nav__link">
+    0.概述
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1logging" class="md-nav__link">
+    1.logging
+  </a>
+  
+    <nav class="md-nav" aria-label="1.logging">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    1.1使用日志模块
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    1.2日志级别
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13" class="md-nav__link">
+    1.3输出格式
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-handler" class="md-nav__link">
+    1.4 Handler
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-traceback" class="md-nav__link">
+    1.5 捕获Traceback
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16" class="md-nav__link">
+    1.6 配置共享
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17" class="md-nav__link">
+    1.7文件配置
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18" class="md-nav__link">
+    1.8禁用日志
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#19" class="md-nav__link">
+    1.9 日志输出格式化
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2loguru" class="md-nav__link">
+    2.loguru
+  </a>
+  
+    <nav class="md-nav" aria-label="2.loguru">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    2.1使用示例
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-add" class="md-nav__link">
+    2.2 add()方法
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-sink" class="md-nav__link">
+    2.3 sink参数
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24" class="md-nav__link">
+    2.4 其他参数
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-rotation" class="md-nav__link">
+    2.5 rotation配置
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-retention" class="md-nav__link">
+    2.6 retention 配置
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#27-compression" class="md-nav__link">
+    2.7 compression 配置
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#28" class="md-nav__link">
+    2.8 字符串格式化
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#29-traceback" class="md-nav__link">
+    2.9 Traceback记录
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    3.参考内容
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -2502,9 +2913,813 @@
                   
 
 
-  <h1>日志处理</h1>
+<h1 id="_1">日志</h1>
+<h2 id="0">0.概述</h2>
+<p>记日志是一种很好的方式，可以理解程序中发生的事，以及事情发生的顺序。</p>
+<p>日志消息将描述程序执行何时到达日志函数调用，并列出你指定的任何变量当时的值。</p>
+<p>另一方面，缺失日志信息表明有一部分代码被跳过，从未执行。</p>
+<p>python的日志实现有两个库：logging、loguru，下面分别介绍用法。</p>
+<ul>
+<li>可以在 logging 模块中设置日志等级，在不同的版本（如开发环境、生产环境）上通过设置不同的输出等级来记录对应的日志，非常灵活。</li>
+<li>print 的输出信息都会输出到标准输出流中，而 logging 模块就更加灵活，可以设置输出到任意位置，如写入文件、写入远程服务器等。</li>
+<li>logging 模块具有灵活的配置和格式化功能，如配置输出当前模块信息、运行时间等，相比 print 的字符串格式化更加方便易用。</li>
+</ul>
+<h2 id="1logging">1.logging</h2>
+<h3 id="11">1.1使用日志模块</h3>
+<p>logging为Python自带的日志记录工具。</p>
+<p>启用logging模块，如下所示：</p>
+<details>
+<summary>点击展开代码</summary>
 
-<p>loguru日志处理</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-0-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-0-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-0-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-0-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-0-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-0-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-0-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-0-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-0-10">10</a></span>
+<span class="normal"><a href="#__codelineno-0-11">11</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="kn">import</span> <span class="nn">logging</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2"></a>
+<a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="n">logging</span><span class="o">.</span><span class="n">basicConfig</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="n">logging</span><span class="o">.</span><span class="n">DEBUG</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s1">&#39;</span><span class="si">%(asctime)s</span><span class="s1"> - </span><span class="si">%(name)s</span><span class="s1"> - </span><span class="si">%(levelname)s</span><span class="s1"> - </span><span class="si">%(message)s</span><span class="s1">&#39;</span><span class="p">)</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5"></a>
+<a id="__codelineno-0-6" name="__codelineno-0-6"></a><span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;This is INFO log&#39;</span><span class="p">)</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7"></a><span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;This is DEBUG log&#39;</span><span class="p">)</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8"></a><span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s1">&#39;This is WARNING log&#39;</span><span class="p">)</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9"></a><span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;This is INFO log&#39;</span><span class="p">)</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10"></a><span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;This is DEBUG log&#39;</span><span class="p">)</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11"></a><span class="n">logging</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s1">&#39;This is WARNING log&#39;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+
+</details>
+
+<p>其中，format属性指定了日志输出信息的格式，level属性指定了日志的输出级别。</p>
+<p>想打印日志信息时，使用 logging.debug() 函数</p>
+<details>
+<summary>点击展开代码</summary>
+
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span>
+<span class="normal"><a href="#__codelineno-1-2">2</a></span>
+<span class="normal"><a href="#__codelineno-1-3">3</a></span>
+<span class="normal"><a href="#__codelineno-1-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;Start of program&#39;</span><span class="p">)</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="k">def</span> <span class="nf">factorial</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3"></a>     <span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;Start of factorial(</span><span class="si">%s%%</span><span class="s1">)&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">n</span><span class="p">))</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4"></a><span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;End of program&#39;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+
+</details>
+
+<p>debug() 函数将调用 basicConfig()，打印一行信息。这行信息的格式是我们在 basicConfig()函数中指定的，并且包括我们传递给 debug() 的消息</p>
+<h3 id="12">1.2日志级别</h3>
+<p>“日志级别”提供了一种方式，按重要性对日志消息进行分类。从最不重要到最重要。利用不同的日志函数，消息可以按某个级别记入日志。</p>
+<p>日志级别如下表所示：</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>级别</strong></td>
+<td><strong>日志函数</strong></td>
+<td><strong>描述</strong></td>
+</tr>
+<tr>
+<td>DEBUG</td>
+<td>logging.debug()</td>
+<td>最低级别，用于表示小细节，通常只有在诊断问题时，才会关心这些信息</td>
+</tr>
+<tr>
+<td>INFO</td>
+<td>logging.info()</td>
+<td>用于记录程序中一般事件的信息，或确认一切工作正常</td>
+</tr>
+<tr>
+<td>WARNING</td>
+<td>logging.warning()</td>
+<td>用于表示可能的问题，它不会阻止程序的工作</td>
+</tr>
+<tr>
+<td>ERROR</td>
+<td>logging.error()</td>
+<td>用于记录错误，它导致程序做某事失败</td>
+</tr>
+<tr>
+<td>CRITICAL</td>
+<td>logging.critical()</td>
+<td>最高级别，用于表示致命的错误，它导致或将要导致程序完全停止工作</td>
+</tr>
+</tbody>
+</table>
+<details>
+<summary>点击展开代码</summary>
+
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-2-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-2-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-2-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-2-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-2-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-2-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-2-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-2-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-2-10">10</a></span>
+<span class="normal"><a href="#__codelineno-2-11">11</a></span>
+<span class="normal"><a href="#__codelineno-2-12">12</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">logging</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2"></a><span class="o">&gt;&gt;&gt;</span> <span class="n">logging</span><span class="o">.</span><span class="n">basicConfig</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="n">logging</span><span class="o">.</span><span class="n">DEBUG</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s1">&#39; </span><span class="si">%(asctime)s</span><span class="s1"> - </span><span class="si">%(levelname)s</span><span class="s1"> - </span><span class="si">%(message)s</span><span class="s1">&#39;</span><span class="p">)</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3"></a><span class="o">&gt;&gt;&gt;</span> <span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;Some debugging details.&#39;</span><span class="p">)</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4"></a><span class="mi">2015</span><span class="o">-</span><span class="mi">05</span><span class="o">-</span><span class="mi">18</span> <span class="mi">19</span><span class="p">:</span><span class="mi">04</span><span class="p">:</span><span class="mi">26</span><span class="p">,</span><span class="mi">901</span> <span class="o">-</span> <span class="n">DEBUG</span> <span class="o">-</span> <span class="n">Some</span> <span class="n">debugging</span> <span class="n">details</span><span class="o">.</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5"></a><span class="o">&gt;&gt;&gt;</span> <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;The logging module is working.&#39;</span><span class="p">)</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6"></a><span class="mi">2015</span><span class="o">-</span><span class="mi">05</span><span class="o">-</span><span class="mi">18</span> <span class="mi">19</span><span class="p">:</span><span class="mi">04</span><span class="p">:</span><span class="mi">35</span><span class="p">,</span><span class="mi">569</span> <span class="o">-</span> <span class="n">INFO</span> <span class="o">-</span> <span class="n">The</span> <span class="n">logging</span> <span class="n">module</span> <span class="ow">is</span> <span class="n">working</span><span class="o">.</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7"></a><span class="o">&gt;&gt;&gt;</span> <span class="n">logging</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s1">&#39;An error message is about to be logged.&#39;</span><span class="p">)</span>
+<a id="__codelineno-2-8" name="__codelineno-2-8"></a><span class="mi">2015</span><span class="o">-</span><span class="mi">05</span><span class="o">-</span><span class="mi">18</span> <span class="mi">19</span><span class="p">:</span><span class="mi">04</span><span class="p">:</span><span class="mi">56</span><span class="p">,</span><span class="mi">843</span> <span class="o">-</span> <span class="n">WARNING</span> <span class="o">-</span> <span class="n">An</span> <span class="n">error</span> <span class="n">message</span> <span class="ow">is</span> <span class="n">about</span> <span class="n">to</span> <span class="n">be</span> <span class="n">logged</span><span class="o">.</span>
+<a id="__codelineno-2-9" name="__codelineno-2-9"></a><span class="o">&gt;&gt;&gt;</span> <span class="n">logging</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;An error has occurred.&#39;</span><span class="p">)</span>
+<a id="__codelineno-2-10" name="__codelineno-2-10"></a><span class="mi">2015</span><span class="o">-</span><span class="mi">05</span><span class="o">-</span><span class="mi">18</span> <span class="mi">19</span><span class="p">:</span><span class="mi">05</span><span class="p">:</span><span class="mi">07</span><span class="p">,</span><span class="mi">737</span> <span class="o">-</span> <span class="n">ERROR</span> <span class="o">-</span> <span class="n">An</span> <span class="n">error</span> <span class="n">has</span> <span class="n">occurred</span><span class="o">.</span>
+<a id="__codelineno-2-11" name="__codelineno-2-11"></a><span class="o">&gt;&gt;&gt;</span> <span class="n">logging</span><span class="o">.</span><span class="n">critical</span><span class="p">(</span><span class="s1">&#39;The program is unable to recover!&#39;</span><span class="p">)</span>
+<a id="__codelineno-2-12" name="__codelineno-2-12"></a><span class="mi">2015</span><span class="o">-</span><span class="mi">05</span><span class="o">-</span><span class="mi">18</span> <span class="mi">19</span><span class="p">:</span><span class="mi">05</span><span class="p">:</span><span class="mi">45</span><span class="p">,</span><span class="mi">794</span> <span class="o">-</span> <span class="n">CRITICAL</span> <span class="o">-</span> <span class="n">The</span> <span class="n">program</span> <span class="ow">is</span> <span class="n">unable</span> <span class="n">to</span> <span class="n">recover</span><span class="err">!</span>
+</code></pre></div></td></tr></table></div>
+
+</details>
+
+<p>日志级别的好处在于，你可以改变想看到的日志消息的优先级。向basicConfig()函数传入 logging.DEBUG 作为 level 关键字参数，这将显示所有日志级别的消息（DEBUG是最低的级别）。但在开发了更多的程序后，你可能只对错误感兴趣。在这种情况下，可以将 basicConfig() 的 level 参数设置为 logging.ERROR，这将只显示 ERROR和 CRITICAL 消息，跳过 DEBUG、INFO 和 WARNING 消息。</p>
+<h3 id="13">1.3输出格式</h3>
+<p>format：指定日志信息的输出格式，部分参数如下，完整参数请见官网。</p>
+<ul>
+<li>%(levelno) s：打印日志级别的数值。</li>
+<li>%(levelname) s：打印日志级别的名称。</li>
+<li>%(pathname) s：打印当前执行程序的路径，其实就是 sys.argv [0]。</li>
+<li>%(filename) s：打印当前执行程序名。</li>
+<li>%(funcName) s：打印日志的当前函数。</li>
+<li>%(lineno) d：打印日志的当前行号。</li>
+<li>%(asctime) s：打印日志的时间。</li>
+<li>%(thread) d：打印线程 ID。</li>
+<li>%(threadName) s：打印线程名称。</li>
+<li>%(process) d：打印进程 ID。</li>
+<li>%(processName) s：打印线程名称。</li>
+<li>%(module) s：打印模块名称。</li>
+<li>%(message) s：打印日志信息。</li>
+</ul>
+<h3 id="14-handler">1.4 Handler</h3>
+<p>我们可以通过handler来将日志输出到不同的地方，如控制台，文件或者HTTP服务器中。</p>
+<p>主要handler如下：</p>
+<ul>
+<li>StreamHandler：logging.StreamHandler；日志输出到流，可以是 sys.stderr，sys.stdout 或者文件。</li>
+<li>FileHandler：logging.FileHandler；日志输出到文件。</li>
+<li>BaseRotatingHandler：logging.handlers.BaseRotatingHandler；基本的日志回滚方式。</li>
+<li>RotatingHandler：logging.handlers.RotatingHandler；日志回滚方式，支持日志文件最大数量和日志文件回滚。</li>
+<li>TimeRotatingHandler：logging.handlers.TimeRotatingHandler；日志回滚方式，在一定时间区域内回滚日志文件。</li>
+<li>SocketHandler：logging.handlers.SocketHandler；远程输出日志到 TCP/IP sockets。</li>
+<li>DatagramHandler：logging.handlers.DatagramHandler；远程输出日志到 UDP sockets。</li>
+<li>SMTPHandler：logging.handlers.SMTPHandler；远程输出日志到邮件地址。</li>
+<li>SysLogHandler：logging.handlers.SysLogHandler；日志输出到 syslog。</li>
+<li>NTEventLogHandler：logging.handlers.NTEventLogHandler；远程输出日志到 Windows NT/2000/XP 的事件日志。</li>
+<li>MemoryHandler：logging.handlers.MemoryHandler；日志输出到内存中的指定 buffer。</li>
+<li>HTTPHandler：logging.handlers.HTTPHandler；通过”GET” 或者”POST” 远程输出到 HTTP 服务器。</li>
+</ul>
+<p>下面我们使用三个 Handler 来实现日志同时输出到控制台、文件、HTTP 服务器：</p>
+<details>
+<summary>点击展开代码</summary>
+
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-3-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-3-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-3-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-3-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-3-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-3-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-3-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-3-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-3-10">10</a></span>
+<span class="normal"><a href="#__codelineno-3-11">11</a></span>
+<span class="normal"><a href="#__codelineno-3-12">12</a></span>
+<span class="normal"><a href="#__codelineno-3-13">13</a></span>
+<span class="normal"><a href="#__codelineno-3-14">14</a></span>
+<span class="normal"><a href="#__codelineno-3-15">15</a></span>
+<span class="normal"><a href="#__codelineno-3-16">16</a></span>
+<span class="normal"><a href="#__codelineno-3-17">17</a></span>
+<span class="normal"><a href="#__codelineno-3-18">18</a></span>
+<span class="normal"><a href="#__codelineno-3-19">19</a></span>
+<span class="normal"><a href="#__codelineno-3-20">20</a></span>
+<span class="normal"><a href="#__codelineno-3-21">21</a></span>
+<span class="normal"><a href="#__codelineno-3-22">22</a></span>
+<span class="normal"><a href="#__codelineno-3-23">23</a></span>
+<span class="normal"><a href="#__codelineno-3-24">24</a></span>
+<span class="normal"><a href="#__codelineno-3-25">25</a></span>
+<span class="normal"><a href="#__codelineno-3-26">26</a></span>
+<span class="normal"><a href="#__codelineno-3-27">27</a></span>
+<span class="normal"><a href="#__codelineno-3-28">28</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="kn">import</span> <span class="nn">logging</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2"></a><span class="kn">from</span> <span class="nn">logging.handlers</span> <span class="kn">import</span> <span class="n">HTTPHandler</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3"></a><span class="kn">import</span> <span class="nn">sys</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4"></a>
+<a id="__codelineno-3-5" name="__codelineno-3-5"></a><span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
+<a id="__codelineno-3-6" name="__codelineno-3-6"></a><span class="n">logger</span><span class="o">.</span><span class="n">setLevel</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="n">logging</span><span class="o">.</span><span class="n">DEBUG</span><span class="p">)</span>
+<a id="__codelineno-3-7" name="__codelineno-3-7"></a>
+<a id="__codelineno-3-8" name="__codelineno-3-8"></a><span class="c1"># StreamHandler</span>
+<a id="__codelineno-3-9" name="__codelineno-3-9"></a><span class="n">stream_handler</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">StreamHandler</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="p">)</span>
+<a id="__codelineno-3-10" name="__codelineno-3-10"></a><span class="n">stream_handler</span><span class="o">.</span><span class="n">setLevel</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="n">logging</span><span class="o">.</span><span class="n">DEBUG</span><span class="p">)</span>
+<a id="__codelineno-3-11" name="__codelineno-3-11"></a><span class="n">logger</span><span class="o">.</span><span class="n">addHandler</span><span class="p">(</span><span class="n">stream_handler</span><span class="p">)</span>
+<a id="__codelineno-3-12" name="__codelineno-3-12"></a>
+<a id="__codelineno-3-13" name="__codelineno-3-13"></a><span class="c1"># FileHandler</span>
+<a id="__codelineno-3-14" name="__codelineno-3-14"></a><span class="n">file_handler</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">FileHandler</span><span class="p">(</span><span class="s1">&#39;output.log&#39;</span><span class="p">)</span>
+<a id="__codelineno-3-15" name="__codelineno-3-15"></a><span class="n">file_handler</span><span class="o">.</span><span class="n">setLevel</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="n">logging</span><span class="o">.</span><span class="n">INFO</span><span class="p">)</span>
+<a id="__codelineno-3-16" name="__codelineno-3-16"></a><span class="n">formatter</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">Formatter</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%(asctime)s</span><span class="s1"> - </span><span class="si">%(name)s</span><span class="s1"> - </span><span class="si">%(levelname)s</span><span class="s1"> - </span><span class="si">%(message)s</span><span class="s1">&#39;</span><span class="p">)</span>
+<a id="__codelineno-3-17" name="__codelineno-3-17"></a><span class="n">file_handler</span><span class="o">.</span><span class="n">setFormatter</span><span class="p">(</span><span class="n">formatter</span><span class="p">)</span>
+<a id="__codelineno-3-18" name="__codelineno-3-18"></a><span class="n">logger</span><span class="o">.</span><span class="n">addHandler</span><span class="p">(</span><span class="n">file_handler</span><span class="p">)</span>
+<a id="__codelineno-3-19" name="__codelineno-3-19"></a>
+<a id="__codelineno-3-20" name="__codelineno-3-20"></a><span class="c1"># HTTPHandler</span>
+<a id="__codelineno-3-21" name="__codelineno-3-21"></a><span class="n">http_handler</span> <span class="o">=</span> <span class="n">HTTPHandler</span><span class="p">(</span><span class="n">host</span><span class="o">=</span><span class="s1">&#39;localhost:8001&#39;</span><span class="p">,</span> <span class="n">url</span><span class="o">=</span><span class="s1">&#39;log&#39;</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="s1">&#39;POST&#39;</span><span class="p">)</span>
+<a id="__codelineno-3-22" name="__codelineno-3-22"></a><span class="n">logger</span><span class="o">.</span><span class="n">addHandler</span><span class="p">(</span><span class="n">http_handler</span><span class="p">)</span>
+<a id="__codelineno-3-23" name="__codelineno-3-23"></a>
+<a id="__codelineno-3-24" name="__codelineno-3-24"></a><span class="c1"># Log</span>
+<a id="__codelineno-3-25" name="__codelineno-3-25"></a><span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;This is a log info&#39;</span><span class="p">)</span>
+<a id="__codelineno-3-26" name="__codelineno-3-26"></a><span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;Debugging&#39;</span><span class="p">)</span>
+<a id="__codelineno-3-27" name="__codelineno-3-27"></a><span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s1">&#39;Warning exists&#39;</span><span class="p">)</span>
+<a id="__codelineno-3-28" name="__codelineno-3-28"></a><span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Finish&#39;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+
+</details>
+
+<p>HTTP Server 会收到控制台输出的信息。 这样一来，我们就通过设置多个 Handler 来控制了日志的多目标输出。 另外值得注意的是，在这里 StreamHandler 对象我们没有设置 Formatter，因此控制台只输出了日志的内容，而没有包含时间、模块等信息，而 FileHandler 我们通过 setFormatter () 方法设置了一个Formatter 对象，因此输出的内容便是格式化后的日志信息。 另外每个 Handler 还可以设置 level 信息，最终输出结果的 level 信息会取 Logger 对象的 level 和 Handler 对象的 level 的交集。</p>
+<h3 id="15-traceback">1.5 捕获Traceback</h3>
+<p>如果遇到错误，我们更希望报错时出现的详细 Traceback 信息，便于调试，利用 logging 模块我们可以非常方便地实现这个记录。</p>
+<p>这里我们在 error () 方法中添加了一个参数，将 exc_info 设置为了 True，这样我们就可以输出执行过程中的信息了，即完整的 Traceback 信息。</p>
+<details>
+<summary>点击展开代码</summary>
+
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-4-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-4-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-4-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-4-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-4-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-4-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-4-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-4-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-4-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-4-10">10</a></span>
+<span class="normal"><a href="#__codelineno-4-11">11</a></span>
+<span class="normal"><a href="#__codelineno-4-12">12</a></span>
+<span class="normal"><a href="#__codelineno-4-13">13</a></span>
+<span class="normal"><a href="#__codelineno-4-14">14</a></span>
+<span class="normal"><a href="#__codelineno-4-15">15</a></span>
+<span class="normal"><a href="#__codelineno-4-16">16</a></span>
+<span class="normal"><a href="#__codelineno-4-17">17</a></span>
+<span class="normal"><a href="#__codelineno-4-18">18</a></span>
+<span class="normal"><a href="#__codelineno-4-19">19</a></span>
+<span class="normal"><a href="#__codelineno-4-20">20</a></span>
+<span class="normal"><a href="#__codelineno-4-21">21</a></span>
+<span class="normal"><a href="#__codelineno-4-22">22</a></span>
+<span class="normal"><a href="#__codelineno-4-23">23</a></span>
+<span class="normal"><a href="#__codelineno-4-24">24</a></span>
+<span class="normal"><a href="#__codelineno-4-25">25</a></span>
+<span class="normal"><a href="#__codelineno-4-26">26</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1"></a><span class="kn">import</span> <span class="nn">logging</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2"></a>
+<a id="__codelineno-4-3" name="__codelineno-4-3"></a><span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4"></a><span class="n">logger</span><span class="o">.</span><span class="n">setLevel</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="n">logging</span><span class="o">.</span><span class="n">DEBUG</span><span class="p">)</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5"></a>
+<a id="__codelineno-4-6" name="__codelineno-4-6"></a><span class="c1"># Formatter</span>
+<a id="__codelineno-4-7" name="__codelineno-4-7"></a><span class="n">formatter</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">Formatter</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%(asctime)s</span><span class="s1"> - </span><span class="si">%(name)s</span><span class="s1"> - </span><span class="si">%(levelname)s</span><span class="s1"> - </span><span class="si">%(message)s</span><span class="s1">&#39;</span><span class="p">)</span>
+<a id="__codelineno-4-8" name="__codelineno-4-8"></a>
+<a id="__codelineno-4-9" name="__codelineno-4-9"></a><span class="c1"># FileHandler</span>
+<a id="__codelineno-4-10" name="__codelineno-4-10"></a><span class="n">file_handler</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">FileHandler</span><span class="p">(</span><span class="s1">&#39;result.log&#39;</span><span class="p">)</span>
+<a id="__codelineno-4-11" name="__codelineno-4-11"></a><span class="n">file_handler</span><span class="o">.</span><span class="n">setFormatter</span><span class="p">(</span><span class="n">formatter</span><span class="p">)</span>
+<a id="__codelineno-4-12" name="__codelineno-4-12"></a><span class="n">logger</span><span class="o">.</span><span class="n">addHandler</span><span class="p">(</span><span class="n">file_handler</span><span class="p">)</span>
+<a id="__codelineno-4-13" name="__codelineno-4-13"></a>
+<a id="__codelineno-4-14" name="__codelineno-4-14"></a><span class="c1"># StreamHandler</span>
+<a id="__codelineno-4-15" name="__codelineno-4-15"></a><span class="n">stream_handler</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">StreamHandler</span><span class="p">()</span>
+<a id="__codelineno-4-16" name="__codelineno-4-16"></a><span class="n">stream_handler</span><span class="o">.</span><span class="n">setFormatter</span><span class="p">(</span><span class="n">formatter</span><span class="p">)</span>
+<a id="__codelineno-4-17" name="__codelineno-4-17"></a><span class="n">logger</span><span class="o">.</span><span class="n">addHandler</span><span class="p">(</span><span class="n">stream_handler</span><span class="p">)</span>
+<a id="__codelineno-4-18" name="__codelineno-4-18"></a>
+<a id="__codelineno-4-19" name="__codelineno-4-19"></a><span class="c1"># Log</span>
+<a id="__codelineno-4-20" name="__codelineno-4-20"></a><span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Start&#39;</span><span class="p">)</span>
+<a id="__codelineno-4-21" name="__codelineno-4-21"></a><span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s1">&#39;Something maybe fail.&#39;</span><span class="p">)</span>
+<a id="__codelineno-4-22" name="__codelineno-4-22"></a><span class="k">try</span><span class="p">:</span>
+<a id="__codelineno-4-23" name="__codelineno-4-23"></a>    <span class="n">result</span> <span class="o">=</span> <span class="mi">10</span> <span class="o">/</span> <span class="mi">0</span>
+<a id="__codelineno-4-24" name="__codelineno-4-24"></a><span class="k">except</span> <span class="ne">Exception</span><span class="p">:</span>
+<a id="__codelineno-4-25" name="__codelineno-4-25"></a>    <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;Faild to get result&#39;</span><span class="p">,</span> <span class="n">exc_info</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<a id="__codelineno-4-26" name="__codelineno-4-26"></a><span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Finished&#39;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+
+</details>
+
+<h3 id="16">1.6 配置共享</h3>
+<p>在写项目的时候，我们肯定会将许多配置放置在许多模块下面，这时如果我们每个文件都来配置 logging 配置那就太繁琐了，logging 模块提供了父子模块共享配置的机制，会根据 Logger 的名称来自动加载父模块的配置。</p>
+<p>首先定义一个main.py文件：</p>
+<details>
+<summary>点击展开代码</summary>
+
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-5-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-5-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-5-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-5-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-5-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-5-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-5-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-5-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-5-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-5-10">10</a></span>
+<span class="normal"><a href="#__codelineno-5-11">11</a></span>
+<span class="normal"><a href="#__codelineno-5-12">12</a></span>
+<span class="normal"><a href="#__codelineno-5-13">13</a></span>
+<span class="normal"><a href="#__codelineno-5-14">14</a></span>
+<span class="normal"><a href="#__codelineno-5-15">15</a></span>
+<span class="normal"><a href="#__codelineno-5-16">16</a></span>
+<span class="normal"><a href="#__codelineno-5-17">17</a></span>
+<span class="normal"><a href="#__codelineno-5-18">18</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1"></a><span class="c1"># main.py</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2"></a><span class="kn">import</span> <span class="nn">logging</span>
+<a id="__codelineno-5-3" name="__codelineno-5-3"></a><span class="kn">import</span> <span class="nn">core</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4"></a>
+<a id="__codelineno-5-5" name="__codelineno-5-5"></a><span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="s1">&#39;main&#39;</span><span class="p">)</span>
+<a id="__codelineno-5-6" name="__codelineno-5-6"></a><span class="n">logger</span><span class="o">.</span><span class="n">setLevel</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="n">logging</span><span class="o">.</span><span class="n">DEBUG</span><span class="p">)</span>
+<a id="__codelineno-5-7" name="__codelineno-5-7"></a>
+<a id="__codelineno-5-8" name="__codelineno-5-8"></a><span class="c1"># Handler</span>
+<a id="__codelineno-5-9" name="__codelineno-5-9"></a><span class="n">handler</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">FileHandler</span><span class="p">(</span><span class="s1">&#39;result.log&#39;</span><span class="p">)</span>
+<a id="__codelineno-5-10" name="__codelineno-5-10"></a><span class="n">handler</span><span class="o">.</span><span class="n">setLevel</span><span class="p">(</span><span class="n">logging</span><span class="o">.</span><span class="n">INFO</span><span class="p">)</span>
+<a id="__codelineno-5-11" name="__codelineno-5-11"></a><span class="n">formatter</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">Formatter</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%(asctime)s</span><span class="s1"> - </span><span class="si">%(name)s</span><span class="s1"> - </span><span class="si">%(levelname)s</span><span class="s1"> - </span><span class="si">%(message)s</span><span class="s1">&#39;</span><span class="p">)</span>
+<a id="__codelineno-5-12" name="__codelineno-5-12"></a><span class="n">handler</span><span class="o">.</span><span class="n">setFormatter</span><span class="p">(</span><span class="n">formatter</span><span class="p">)</span>
+<a id="__codelineno-5-13" name="__codelineno-5-13"></a><span class="n">logger</span><span class="o">.</span><span class="n">addHandler</span><span class="p">(</span><span class="n">handler</span><span class="p">)</span>
+<a id="__codelineno-5-14" name="__codelineno-5-14"></a>
+<a id="__codelineno-5-15" name="__codelineno-5-15"></a><span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Main Info&#39;</span><span class="p">)</span>
+<a id="__codelineno-5-16" name="__codelineno-5-16"></a><span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;Main Debug&#39;</span><span class="p">)</span>
+<a id="__codelineno-5-17" name="__codelineno-5-17"></a><span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;Main Error&#39;</span><span class="p">)</span>
+<a id="__codelineno-5-18" name="__codelineno-5-18"></a><span class="n">core</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
+</code></pre></div></td></tr></table></div>
+
+</details>
+
+<p>接下来我们定义core.py，内容如下：</p>
+<details>
+<summary>点击展开代码</summary>
+
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-6-1">1</a></span>
+<span class="normal"><a href="#__codelineno-6-2">2</a></span>
+<span class="normal"><a href="#__codelineno-6-3">3</a></span>
+<span class="normal"><a href="#__codelineno-6-4">4</a></span>
+<span class="normal"><a href="#__codelineno-6-5">5</a></span>
+<span class="normal"><a href="#__codelineno-6-6">6</a></span>
+<span class="normal"><a href="#__codelineno-6-7">7</a></span>
+<span class="normal"><a href="#__codelineno-6-8">8</a></span>
+<span class="normal"><a href="#__codelineno-6-9">9</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1"></a><span class="c1"># core.py</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2"></a><span class="kn">import</span> <span class="nn">logging</span>
+<a id="__codelineno-6-3" name="__codelineno-6-3"></a>
+<a id="__codelineno-6-4" name="__codelineno-6-4"></a><span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="s1">&#39;main.core&#39;</span><span class="p">)</span>
+<a id="__codelineno-6-5" name="__codelineno-6-5"></a>
+<a id="__codelineno-6-6" name="__codelineno-6-6"></a><span class="k">def</span> <span class="nf">run</span><span class="p">():</span>
+<a id="__codelineno-6-7" name="__codelineno-6-7"></a>    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Core Info&#39;</span><span class="p">)</span>
+<a id="__codelineno-6-8" name="__codelineno-6-8"></a>    <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;Core Debug&#39;</span><span class="p">)</span>
+<a id="__codelineno-6-9" name="__codelineno-6-9"></a>    <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;Core Error&#39;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+
+</details>
+
+<p>core.py里面的 Logger 就会复用main.py里面的 Logger 配置，而不用再去配置一次了。 运行之后会生成一个 result.log 文件</p>
+<p>输出结果如下：</p>
+<details>
+<summary>点击展开代码</summary>
+
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-7-1">1</a></span>
+<span class="normal"><a href="#__codelineno-7-2">2</a></span>
+<span class="normal"><a href="#__codelineno-7-3">3</a></span>
+<span class="normal"><a href="#__codelineno-7-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1"></a><span class="m">2018</span>-06-03<span class="w"> </span><span class="m">16</span>:55:56,259<span class="w"> </span>-<span class="w"> </span>main<span class="w"> </span>-<span class="w"> </span>INFO<span class="w"> </span>-<span class="w"> </span>Main<span class="w"> </span>Info
+<a id="__codelineno-7-2" name="__codelineno-7-2"></a><span class="m">2018</span>-06-03<span class="w"> </span><span class="m">16</span>:55:56,259<span class="w"> </span>-<span class="w"> </span>main<span class="w"> </span>-<span class="w"> </span>ERROR<span class="w"> </span>-<span class="w"> </span>Main<span class="w"> </span>Error
+<a id="__codelineno-7-3" name="__codelineno-7-3"></a><span class="m">2018</span>-06-03<span class="w"> </span><span class="m">16</span>:55:56,259<span class="w"> </span>-<span class="w"> </span>main.core<span class="w"> </span>-<span class="w"> </span>INFO<span class="w"> </span>-<span class="w"> </span>Core<span class="w"> </span>Info
+<a id="__codelineno-7-4" name="__codelineno-7-4"></a><span class="m">2018</span>-06-03<span class="w"> </span><span class="m">16</span>:55:56,259<span class="w"> </span>-<span class="w"> </span>main.core<span class="w"> </span>-<span class="w"> </span>ERROR<span class="w"> </span>-<span class="w"> </span>Core<span class="w"> </span>Error
+</code></pre></div></td></tr></table></div>
+
+</details>
+
+<p>可以看到父子模块都使用了同样的输出配置。 如此一来，我们只要在入口文件里面定义好 logging 模块的输出配置，子模块只需要在定义 Logger 对象时名称使用父模块的名称开头即可共享配置，非常方便。</p>
+<h3 id="17">1.7文件配置</h3>
+<p>在开发过程中，将配置在代码里面写死并不是一个好的习惯，更好的做法是将配置写在配置文件里面，我们可以将配置写入到配置文件，然后运行时读取配置文件里面的配置，这样是更方便管理和维护的，首先我们定义一个 yaml 配置文件：</p>
+<details>
+<summary>点击展开代码</summary>
+
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-8-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-8-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-8-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-8-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-8-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-8-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-8-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-8-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-8-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-8-10">10</a></span>
+<span class="normal"><a href="#__codelineno-8-11">11</a></span>
+<span class="normal"><a href="#__codelineno-8-12">12</a></span>
+<span class="normal"><a href="#__codelineno-8-13">13</a></span>
+<span class="normal"><a href="#__codelineno-8-14">14</a></span>
+<span class="normal"><a href="#__codelineno-8-15">15</a></span>
+<span class="normal"><a href="#__codelineno-8-16">16</a></span>
+<span class="normal"><a href="#__codelineno-8-17">17</a></span>
+<span class="normal"><a href="#__codelineno-8-18">18</a></span>
+<span class="normal"><a href="#__codelineno-8-19">19</a></span>
+<span class="normal"><a href="#__codelineno-8-20">20</a></span>
+<span class="normal"><a href="#__codelineno-8-21">21</a></span>
+<span class="normal"><a href="#__codelineno-8-22">22</a></span>
+<span class="normal"><a href="#__codelineno-8-23">23</a></span>
+<span class="normal"><a href="#__codelineno-8-24">24</a></span>
+<span class="normal"><a href="#__codelineno-8-25">25</a></span>
+<span class="normal"><a href="#__codelineno-8-26">26</a></span>
+<span class="normal"><a href="#__codelineno-8-27">27</a></span>
+<span class="normal"><a href="#__codelineno-8-28">28</a></span>
+<span class="normal"><a href="#__codelineno-8-29">29</a></span>
+<span class="normal"><a href="#__codelineno-8-30">30</a></span>
+<span class="normal"><a href="#__codelineno-8-31">31</a></span>
+<span class="normal"><a href="#__codelineno-8-32">32</a></span>
+<span class="normal"><a href="#__codelineno-8-33">33</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1"></a><span class="l l-Scalar l-Scalar-Plain">// config.yaml</span>
+<a id="__codelineno-8-2" name="__codelineno-8-2"></a><span class="l l-Scalar l-Scalar-Plain">version</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1</span>
+<a id="__codelineno-8-3" name="__codelineno-8-3"></a><span class="nt">formatters</span><span class="p">:</span>
+<a id="__codelineno-8-4" name="__codelineno-8-4"></a><span class="w">  </span><span class="nt">brief</span><span class="p">:</span>
+<a id="__codelineno-8-5" name="__codelineno-8-5"></a><span class="w">    </span><span class="nt">format</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;%(asctime)s</span><span class="nv"> </span><span class="s">-</span><span class="nv"> </span><span class="s">%(message)s&quot;</span>
+<a id="__codelineno-8-6" name="__codelineno-8-6"></a><span class="w">  </span><span class="nt">simple</span><span class="p">:</span>
+<a id="__codelineno-8-7" name="__codelineno-8-7"></a><span class="w">    </span><span class="nt">format</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;%(asctime)s</span><span class="nv"> </span><span class="s">-</span><span class="nv"> </span><span class="s">%(name)s</span><span class="nv"> </span><span class="s">-</span><span class="nv"> </span><span class="s">%(levelname)s</span><span class="nv"> </span><span class="s">-</span><span class="nv"> </span><span class="s">%(message)s&quot;</span>
+<a id="__codelineno-8-8" name="__codelineno-8-8"></a><span class="nt">handlers</span><span class="p">:</span>
+<a id="__codelineno-8-9" name="__codelineno-8-9"></a><span class="w">  </span><span class="nt">console</span><span class="p">:</span>
+<a id="__codelineno-8-10" name="__codelineno-8-10"></a><span class="w">    </span><span class="nt">class </span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">logging.StreamHandler</span>
+<a id="__codelineno-8-11" name="__codelineno-8-11"></a><span class="w">    </span><span class="nt">formatter</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">brief</span>
+<a id="__codelineno-8-12" name="__codelineno-8-12"></a><span class="w">    </span><span class="nt">level   </span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">INFO</span>
+<a id="__codelineno-8-13" name="__codelineno-8-13"></a><span class="w">    </span><span class="nt">stream  </span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ext://sys.stdout</span>
+<a id="__codelineno-8-14" name="__codelineno-8-14"></a><span class="w">  </span><span class="nt">file</span><span class="p">:</span>
+<a id="__codelineno-8-15" name="__codelineno-8-15"></a><span class="w">    </span><span class="nt">class </span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">logging.FileHandler</span>
+<a id="__codelineno-8-16" name="__codelineno-8-16"></a><span class="w">    </span><span class="nt">formatter</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">simple</span>
+<a id="__codelineno-8-17" name="__codelineno-8-17"></a><span class="w">    </span><span class="nt">level</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DEBUG</span>
+<a id="__codelineno-8-18" name="__codelineno-8-18"></a><span class="w">    </span><span class="nt">filename</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">debug.log</span>
+<a id="__codelineno-8-19" name="__codelineno-8-19"></a><span class="w">  </span><span class="nt">error</span><span class="p">:</span>
+<a id="__codelineno-8-20" name="__codelineno-8-20"></a><span class="w">    </span><span class="nt">class</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">logging.handlers.RotatingFileHandler</span>
+<a id="__codelineno-8-21" name="__codelineno-8-21"></a><span class="w">    </span><span class="nt">level</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ERROR</span>
+<a id="__codelineno-8-22" name="__codelineno-8-22"></a><span class="w">    </span><span class="nt">formatter</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">simple</span>
+<a id="__codelineno-8-23" name="__codelineno-8-23"></a><span class="w">    </span><span class="nt">filename</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">error.log</span>
+<a id="__codelineno-8-24" name="__codelineno-8-24"></a><span class="w">    </span><span class="nt">maxBytes</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">10485760</span>
+<a id="__codelineno-8-25" name="__codelineno-8-25"></a><span class="w">    </span><span class="nt">backupCount</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">20</span>
+<a id="__codelineno-8-26" name="__codelineno-8-26"></a><span class="w">    </span><span class="nt">encoding</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">utf8</span>
+<a id="__codelineno-8-27" name="__codelineno-8-27"></a><span class="nt">loggers</span><span class="p">:</span>
+<a id="__codelineno-8-28" name="__codelineno-8-28"></a><span class="w">  </span><span class="nt">main.core</span><span class="p">:</span>
+<a id="__codelineno-8-29" name="__codelineno-8-29"></a><span class="w">    </span><span class="nt">level</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DEBUG</span>
+<a id="__codelineno-8-30" name="__codelineno-8-30"></a><span class="w">    </span><span class="nt">handlers</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="nv">console</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">file</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">error</span><span class="p p-Indicator">]</span>
+<a id="__codelineno-8-31" name="__codelineno-8-31"></a><span class="nt">root</span><span class="p">:</span>
+<a id="__codelineno-8-32" name="__codelineno-8-32"></a><span class="w">  </span><span class="nt">level</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DEBUG</span>
+<a id="__codelineno-8-33" name="__codelineno-8-33"></a><span class="w">  </span><span class="nt">handlers</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="nv">console</span><span class="p p-Indicator">]</span>
+</code></pre></div></td></tr></table></div>
+
+</details>
+
+<p>这里我们定义了 formatters、handlers、loggers、root 等模块，实际上对应的就是各个 Formatter、Handler、Logger 的配置，参数和它们的构造方法都是相同的。 接下来我们定义一个主入口文件，main.py，内容如下：</p>
+<details>
+<summary>点击展开代码</summary>
+
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-9-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-9-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-9-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-9-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-9-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-9-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-9-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-9-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-9-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-9-10">10</a></span>
+<span class="normal"><a href="#__codelineno-9-11">11</a></span>
+<span class="normal"><a href="#__codelineno-9-12">12</a></span>
+<span class="normal"><a href="#__codelineno-9-13">13</a></span>
+<span class="normal"><a href="#__codelineno-9-14">14</a></span>
+<span class="normal"><a href="#__codelineno-9-15">15</a></span>
+<span class="normal"><a href="#__codelineno-9-16">16</a></span>
+<span class="normal"><a href="#__codelineno-9-17">17</a></span>
+<span class="normal"><a href="#__codelineno-9-18">18</a></span>
+<span class="normal"><a href="#__codelineno-9-19">19</a></span>
+<span class="normal"><a href="#__codelineno-9-20">20</a></span>
+<span class="normal"><a href="#__codelineno-9-21">21</a></span>
+<span class="normal"><a href="#__codelineno-9-22">22</a></span>
+<span class="normal"><a href="#__codelineno-9-23">23</a></span>
+<span class="normal"><a href="#__codelineno-9-24">24</a></span>
+<span class="normal"><a href="#__codelineno-9-25">25</a></span>
+<span class="normal"><a href="#__codelineno-9-26">26</a></span>
+<span class="normal"><a href="#__codelineno-9-27">27</a></span>
+<span class="normal"><a href="#__codelineno-9-28">28</a></span>
+<span class="normal"><a href="#__codelineno-9-29">29</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1"></a><span class="c1"># main.py</span>
+<a id="__codelineno-9-2" name="__codelineno-9-2"></a><span class="kn">import</span> <span class="nn">logging</span>
+<a id="__codelineno-9-3" name="__codelineno-9-3"></a><span class="kn">import</span> <span class="nn">core</span>
+<a id="__codelineno-9-4" name="__codelineno-9-4"></a><span class="kn">import</span> <span class="nn">yaml</span>
+<a id="__codelineno-9-5" name="__codelineno-9-5"></a><span class="kn">import</span> <span class="nn">logging.config</span>
+<a id="__codelineno-9-6" name="__codelineno-9-6"></a><span class="kn">import</span> <span class="nn">os</span>
+<a id="__codelineno-9-7" name="__codelineno-9-7"></a>
+<a id="__codelineno-9-8" name="__codelineno-9-8"></a>
+<a id="__codelineno-9-9" name="__codelineno-9-9"></a><span class="k">def</span> <span class="nf">setup_logging</span><span class="p">(</span><span class="n">default_path</span><span class="o">=</span><span class="s1">&#39;config.yaml&#39;</span><span class="p">,</span> <span class="n">default_level</span><span class="o">=</span><span class="n">logging</span><span class="o">.</span><span class="n">INFO</span><span class="p">):</span>
+<a id="__codelineno-9-10" name="__codelineno-9-10"></a>    <span class="n">path</span> <span class="o">=</span> <span class="n">default_path</span>
+<a id="__codelineno-9-11" name="__codelineno-9-11"></a>    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
+<a id="__codelineno-9-12" name="__codelineno-9-12"></a>        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+<a id="__codelineno-9-13" name="__codelineno-9-13"></a>            <span class="n">config</span> <span class="o">=</span> <span class="n">yaml</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+<a id="__codelineno-9-14" name="__codelineno-9-14"></a>            <span class="n">logging</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">dictConfig</span><span class="p">(</span><span class="n">config</span><span class="p">)</span>
+<a id="__codelineno-9-15" name="__codelineno-9-15"></a>    <span class="k">else</span><span class="p">:</span>
+<a id="__codelineno-9-16" name="__codelineno-9-16"></a>        <span class="n">logging</span><span class="o">.</span><span class="n">basicConfig</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="n">default_level</span><span class="p">)</span>
+<a id="__codelineno-9-17" name="__codelineno-9-17"></a>
+<a id="__codelineno-9-18" name="__codelineno-9-18"></a>
+<a id="__codelineno-9-19" name="__codelineno-9-19"></a><span class="k">def</span> <span class="nf">log</span><span class="p">():</span>
+<a id="__codelineno-9-20" name="__codelineno-9-20"></a>    <span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;Start&#39;</span><span class="p">)</span>
+<a id="__codelineno-9-21" name="__codelineno-9-21"></a>    <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Exec&#39;</span><span class="p">)</span>
+<a id="__codelineno-9-22" name="__codelineno-9-22"></a>    <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Finished&#39;</span><span class="p">)</span>
+<a id="__codelineno-9-23" name="__codelineno-9-23"></a>
+<a id="__codelineno-9-24" name="__codelineno-9-24"></a>
+<a id="__codelineno-9-25" name="__codelineno-9-25"></a><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+<a id="__codelineno-9-26" name="__codelineno-9-26"></a>    <span class="n">yaml_path</span> <span class="o">=</span> <span class="s1">&#39;config.yaml&#39;</span>
+<a id="__codelineno-9-27" name="__codelineno-9-27"></a>    <span class="n">setup_logging</span><span class="p">(</span><span class="n">yaml_path</span><span class="p">)</span>
+<a id="__codelineno-9-28" name="__codelineno-9-28"></a>    <span class="n">log</span><span class="p">()</span>
+<a id="__codelineno-9-29" name="__codelineno-9-29"></a>    <span class="n">core</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
+</code></pre></div></td></tr></table></div>
+
+</details>
+
+<p>我们定义 core.py如下：</p>
+<details>
+<summary>点击展开代码</summary>
+
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-10-1">1</a></span>
+<span class="normal"><a href="#__codelineno-10-2">2</a></span>
+<span class="normal"><a href="#__codelineno-10-3">3</a></span>
+<span class="normal"><a href="#__codelineno-10-4">4</a></span>
+<span class="normal"><a href="#__codelineno-10-5">5</a></span>
+<span class="normal"><a href="#__codelineno-10-6">6</a></span>
+<span class="normal"><a href="#__codelineno-10-7">7</a></span>
+<span class="normal"><a href="#__codelineno-10-8">8</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1"></a><span class="kn">import</span> <span class="nn">logging</span>
+<a id="__codelineno-10-2" name="__codelineno-10-2"></a>
+<a id="__codelineno-10-3" name="__codelineno-10-3"></a><span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="s1">&#39;main.core&#39;</span><span class="p">)</span>
+<a id="__codelineno-10-4" name="__codelineno-10-4"></a>
+<a id="__codelineno-10-5" name="__codelineno-10-5"></a><span class="k">def</span> <span class="nf">run</span><span class="p">():</span>
+<a id="__codelineno-10-6" name="__codelineno-10-6"></a>    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Core Info&#39;</span><span class="p">)</span>
+<a id="__codelineno-10-7" name="__codelineno-10-7"></a>    <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;Core Debug&#39;</span><span class="p">)</span>
+<a id="__codelineno-10-8" name="__codelineno-10-8"></a>    <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;Core Error&#39;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+
+</details>
+
+<p>通过配置文件，我们可以非常灵活地定义 Handler、Formatter、Logger 等配置，同时也显得非常直观，也非常容易维护，在实际项目中，推荐使用此种方式进行配置。 以上便是 logging 模块的基本使用方法，有了它，我们可以方便地进行日志管理和维护，会给我们的工作带来极大的方便。</p>
+<h3 id="18">1.8禁用日志</h3>
+<p>在调试完成后，你需要从代码中清除每条日志消息的 print() 调用，这将会消耗你很多时间。</p>
+<p>你甚至有可能不小心删除一些 print() 调用，而它们不是用来产生日志消息的。</p>
+<p>日志消息的好处在于，你可以随心所欲地在程序中想加多少就加多少，稍后只要加入如下代码，就可以禁止日志。</p>
+<details>
+<summary>点击展开代码</summary>
+
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-11-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1"></a><span class="n">logging</span><span class="o">.</span><span class="n">disable</span><span class="p">(</span><span class="n">logging</span><span class="o">.</span><span class="n">CRITICAL</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+
+</details>
+
+<p>不像 print()，logging 模块使得显示和隐藏日志信息之间的切换变得很容易。</p>
+<p>同样，还可以根据不同的日志级别，禁用不同的日志消息。</p>
+<details>
+<summary>点击展开代码</summary>
+
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-12-1">1</a></span>
+<span class="normal"><a href="#__codelineno-12-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1"></a><span class="n">logging</span><span class="o">.</span><span class="n">disable</span><span class="p">(</span><span class="n">logging</span><span class="o">.</span><span class="n">INFO</span><span class="p">)</span>
+<a id="__codelineno-12-2" name="__codelineno-12-2"></a><span class="n">logging</span><span class="o">.</span><span class="n">disable</span><span class="p">(</span><span class="n">logging</span><span class="o">.</span><span class="n">DEBUG</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+
+</details>
+
+<p>日志消息是给程序员的，不是给用户的。对于用户希望看到的消息，例如“文件未找到”或者“无效的输入，请输入一个数字”，应该使用 print() 调用。我们不希望禁用日志消息之后，让用户看不到有用的信息。</p>
+<h3 id="19">1.9 日志输出格式化</h3>
+<details>
+<summary>点击展开代码</summary>
+
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-13-1">1</a></span>
+<span class="normal"><a href="#__codelineno-13-2">2</a></span>
+<span class="normal"><a href="#__codelineno-13-3">3</a></span>
+<span class="normal"><a href="#__codelineno-13-4">4</a></span>
+<span class="normal"><a href="#__codelineno-13-5">5</a></span>
+<span class="normal"><a href="#__codelineno-13-6">6</a></span>
+<span class="normal"><a href="#__codelineno-13-7">7</a></span>
+<span class="normal"><a href="#__codelineno-13-8">8</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1"></a><span class="kn">import</span> <span class="nn">logging</span>
+<a id="__codelineno-13-2" name="__codelineno-13-2"></a>
+<a id="__codelineno-13-3" name="__codelineno-13-3"></a><span class="n">logging</span><span class="o">.</span><span class="n">basicConfig</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="n">logging</span><span class="o">.</span><span class="n">DEBUG</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s1">&#39;</span><span class="si">%(asctime)s</span><span class="s1"> - </span><span class="si">%(name)s</span><span class="s1"> - </span><span class="si">%(levelname)s</span><span class="s1"> - </span><span class="si">%(message)s</span><span class="s1">&#39;</span><span class="p">)</span>
+<a id="__codelineno-13-4" name="__codelineno-13-4"></a>
+<a id="__codelineno-13-5" name="__codelineno-13-5"></a><span class="c1"># bad</span>
+<a id="__codelineno-13-6" name="__codelineno-13-6"></a><span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;Hello </span><span class="si">{0}</span><span class="s1">, </span><span class="si">{1}</span><span class="s1">!&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s1">&#39;World&#39;</span><span class="p">,</span> <span class="s1">&#39;Congratulations&#39;</span><span class="p">))</span>
+<a id="__codelineno-13-7" name="__codelineno-13-7"></a><span class="c1"># good</span>
+<a id="__codelineno-13-8" name="__codelineno-13-8"></a><span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;Hello </span><span class="si">%s</span><span class="s1">, </span><span class="si">%s</span><span class="s1">!&#39;</span><span class="p">,</span> <span class="s1">&#39;World&#39;</span><span class="p">,</span> <span class="s1">&#39;Congratulations&#39;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+
+</details>
+
+<p>logging模块提供了字符串格式化方法，我们只需要在第一个参数写上要打印输出的模板，占位符用%s、%d等表示即可，然后在后续参数添加对应的值就可以了，推荐使用这种方法。</p>
+<h2 id="2loguru">2.loguru</h2>
+<p>安装：pip install loguru</p>
+<p>logging的一些配置相对来说还是比较繁琐的，这里有另一个库loguru使用起来更方便。</p>
+<h3 id="21">2.1使用示例</h3>
+<details>
+<summary>点击展开代码</summary>
+
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-14-1">1</a></span>
+<span class="normal"><a href="#__codelineno-14-2">2</a></span>
+<span class="normal"><a href="#__codelineno-14-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1"></a><span class="kn">from</span> <span class="nn">loguru</span> <span class="kn">import</span> <span class="n">logger</span>
+<a id="__codelineno-14-2" name="__codelineno-14-2"></a>
+<a id="__codelineno-14-3" name="__codelineno-14-3"></a><span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;This is a debug message&#39;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+
+</details>
+
+<p>输出结果如下：</p>
+<details>
+<summary>点击展开结果</summary>
+
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-15-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1"></a><span class="m">2022</span>-04-09<span class="w"> </span><span class="m">11</span>:52:39.141<span class="w"> </span><span class="p">|</span><span class="w"> </span>DEBUG<span class="w">    </span><span class="p">|</span><span class="w"> </span>__main__:&lt;module&gt;:3<span class="w"> </span>-<span class="w"> </span>This<span class="w"> </span>is<span class="w"> </span>a<span class="w"> </span>debug<span class="w"> </span>message
+</code></pre></div></td></tr></table></div>
+
+</details>
+
+<p>不需要配置什么东西，直接引入一个 logger，然后调用其 debug 方法即可。 在 loguru 里面有且仅有一个主要对象，那就是 logger，loguru 里面有且仅有一个 logger，而且它已经被提前配置了一些基础信息，比如比较友好的格式化、文本颜色信息等等。</p>
+<p>如果想要输出到其他的位置，比如存为文件，我们只需要使用一行代码声明即可。</p>
+<details>
+<summary>点击展开代码</summary>
+
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-16-1">1</a></span>
+<span class="normal"><a href="#__codelineno-16-2">2</a></span>
+<span class="normal"><a href="#__codelineno-16-3">3</a></span>
+<span class="normal"><a href="#__codelineno-16-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1"></a><span class="kn">from</span> <span class="nn">loguru</span> <span class="kn">import</span> <span class="n">logger</span>
+<a id="__codelineno-16-2" name="__codelineno-16-2"></a>
+<a id="__codelineno-16-3" name="__codelineno-16-3"></a><span class="n">logger</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="s1">&#39;runtime.log&#39;</span><span class="p">)</span>
+<a id="__codelineno-16-4" name="__codelineno-16-4"></a><span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;this is a debug&#39;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+
+</details>
+
+<p>我们也不需要再声明一个 FileHandler 了，就一行 add 语句搞定，运行之后会发现目录下 runtime.log 里面同样出现了刚刚控制台输出的 DEBUG 信息。</p>
+<h3 id="22-add">2.2 add()方法</h3>
+<p>loguru 对输出到文件的配置有非常强大的支持，比如支持输出到多个文件，分级别分别输出，过大创建新文件，过久自动删除等等。 下面我们分别看看这些怎样来实现，这里基本上就是 add 方法的使用介绍。</p>
+<p>因为这个 add 方法就相当于给 logger 添加了一个 Handler，它给我们暴露了许多参数来实现 Handler 的配置，下面我们来详细介绍下。 首先看看它的方法：</p>
+<details>
+<summary>点击展开代码</summary>
+
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-17-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-17-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-17-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-17-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-17-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-17-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-17-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-17-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-17-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-17-10">10</a></span>
+<span class="normal"><a href="#__codelineno-17-11">11</a></span>
+<span class="normal"><a href="#__codelineno-17-12">12</a></span>
+<span class="normal"><a href="#__codelineno-17-13">13</a></span>
+<span class="normal"><a href="#__codelineno-17-14">14</a></span>
+<span class="normal"><a href="#__codelineno-17-15">15</a></span>
+<span class="normal"><a href="#__codelineno-17-16">16</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1"></a><span class="k">def</span> <span class="nf">add</span><span class="p">(</span>
+<a id="__codelineno-17-2" name="__codelineno-17-2"></a>        <span class="bp">self</span><span class="p">,</span>
+<a id="__codelineno-17-3" name="__codelineno-17-3"></a>        <span class="n">sink</span><span class="p">,</span>
+<a id="__codelineno-17-4" name="__codelineno-17-4"></a>        <span class="o">*</span><span class="p">,</span>
+<a id="__codelineno-17-5" name="__codelineno-17-5"></a>        <span class="n">level</span><span class="o">=</span><span class="n">_defaults</span><span class="o">.</span><span class="n">LOGURU_LEVEL</span><span class="p">,</span>
+<a id="__codelineno-17-6" name="__codelineno-17-6"></a>        <span class="nb">format</span><span class="o">=</span><span class="n">_defaults</span><span class="o">.</span><span class="n">LOGURU_FORMAT</span><span class="p">,</span>
+<a id="__codelineno-17-7" name="__codelineno-17-7"></a>        <span class="nb">filter</span><span class="o">=</span><span class="n">_defaults</span><span class="o">.</span><span class="n">LOGURU_FILTER</span><span class="p">,</span>
+<a id="__codelineno-17-8" name="__codelineno-17-8"></a>        <span class="n">colorize</span><span class="o">=</span><span class="n">_defaults</span><span class="o">.</span><span class="n">LOGURU_COLORIZE</span><span class="p">,</span>
+<a id="__codelineno-17-9" name="__codelineno-17-9"></a>        <span class="n">serialize</span><span class="o">=</span><span class="n">_defaults</span><span class="o">.</span><span class="n">LOGURU_SERIALIZE</span><span class="p">,</span>
+<a id="__codelineno-17-10" name="__codelineno-17-10"></a>        <span class="n">backtrace</span><span class="o">=</span><span class="n">_defaults</span><span class="o">.</span><span class="n">LOGURU_BACKTRACE</span><span class="p">,</span>
+<a id="__codelineno-17-11" name="__codelineno-17-11"></a>        <span class="n">diagnose</span><span class="o">=</span><span class="n">_defaults</span><span class="o">.</span><span class="n">LOGURU_DIAGNOSE</span><span class="p">,</span>
+<a id="__codelineno-17-12" name="__codelineno-17-12"></a>        <span class="n">enqueue</span><span class="o">=</span><span class="n">_defaults</span><span class="o">.</span><span class="n">LOGURU_ENQUEUE</span><span class="p">,</span>
+<a id="__codelineno-17-13" name="__codelineno-17-13"></a>        <span class="n">catch</span><span class="o">=</span><span class="n">_defaults</span><span class="o">.</span><span class="n">LOGURU_CATCH</span><span class="p">,</span>
+<a id="__codelineno-17-14" name="__codelineno-17-14"></a>        <span class="o">**</span><span class="n">kwargs</span>
+<a id="__codelineno-17-15" name="__codelineno-17-15"></a>    <span class="p">):</span>
+<a id="__codelineno-17-16" name="__codelineno-17-16"></a>    <span class="k">pass</span>
+</code></pre></div></td></tr></table></div>
+
+</details>
+
+<h3 id="23-sink">2.3 sink参数</h3>
+<ul>
+<li>sink 可以传入一个 file 对象，例如 <code>sys.stderr</code> 或者 <code>open('file.log', 'w')</code> 都可以。</li>
+<li>sink 可以直接传入一个 <code>str</code> 字符串或者 <code>pathlib.Path</code> 对象，其实就是代表文件路径的，如果识别到是这种类型，它会自动创建对应路径的日志文件并将日志输出进去。</li>
+<li>sink 可以是一个方法，可以自行定义输出实现。</li>
+<li>sink 可以是一个 logging 模块的 Handler，比如 FileHandler、StreamHandler 等等，或者上文中我们提到的 CMRESHandler 照样也是可以的，这样就可以实现自定义 Handler 的配置。</li>
+<li>sink 还可以是一个自定义的类，具体的实现规范可以参见官方文档。</li>
+<li>另外添加 sink 之后我们也可以对其进行删除，相当于重新刷新并写入新的内容。 删除的时候根据刚刚 add 方法返回的 id 进行删除即可。</li>
+</ul>
+<details>
+<summary>点击展开代码</summary>
+
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-18-1">1</a></span>
+<span class="normal"><a href="#__codelineno-18-2">2</a></span>
+<span class="normal"><a href="#__codelineno-18-3">3</a></span>
+<span class="normal"><a href="#__codelineno-18-4">4</a></span>
+<span class="normal"><a href="#__codelineno-18-5">5</a></span>
+<span class="normal"><a href="#__codelineno-18-6">6</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1"></a><span class="kn">from</span> <span class="nn">loguru</span> <span class="kn">import</span> <span class="n">logger</span>
+<a id="__codelineno-18-2" name="__codelineno-18-2"></a>
+<a id="__codelineno-18-3" name="__codelineno-18-3"></a><span class="n">trace</span> <span class="o">=</span> <span class="n">logger</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="s1">&#39;runtime.log&#39;</span><span class="p">)</span>
+<a id="__codelineno-18-4" name="__codelineno-18-4"></a><span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;this is a debug message&#39;</span><span class="p">)</span>
+<a id="__codelineno-18-5" name="__codelineno-18-5"></a><span class="n">logger</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">trace</span><span class="p">)</span>
+<a id="__codelineno-18-6" name="__codelineno-18-6"></a><span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;this is another debug message&#39;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+
+</details>
+
+<h3 id="24">2.4 其他参数</h3>
+<p>其他参数用法和 logging 模块都是基本一样的，例如这里使用 format、filter、level 来规定输出的格式：</p>
+<details>
+<summary>点击展开代码</summary>
+
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-19-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1"></a><span class="n">logger</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="s1">&#39;runtime.log&#39;</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">{time}</span><span class="s2"> </span><span class="si">{level}</span><span class="s2"> </span><span class="si">{message}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="nb">filter</span><span class="o">=</span><span class="s2">&quot;my_module&quot;</span><span class="p">,</span> <span class="n">level</span><span class="o">=</span><span class="s2">&quot;INFO&quot;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+
+</details>
+
+<h3 id="25-rotation">2.5 rotation配置</h3>
+<p>用了 loguru 我们还可以非常方便地使用 rotation 配置，比如我们想一天输出一个日志文件，或者文件太大了自动分隔日志文件，我们可以直接使用 add 方法的 rotation 参数进行配置。 </p>
+<details>
+<summary>点击展开代码</summary>
+
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-20-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1"></a><span class="n">logger</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="s1">&#39;runtime_</span><span class="si">{time}</span><span class="s1">.log&#39;</span><span class="p">,</span> <span class="n">rotation</span><span class="o">=</span><span class="s2">&quot;500 MB&quot;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+
+</details>
+
+<p>过这样的配置我们就可以实现每 500MB 存储一个文件，每个 log 文件过大就会新创建一个 log 文件。我们在配置 log 名字时加上了一个 time 占位符，这样在生成时可以自动将时间替换进去，生成一个文件名包含时间的 log 文件。 另外我们也可以使用 rotation 参数实现定时创建 log 文件。</p>
+<details>
+<summary>点击展开代码</summary>
+
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-21-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1"></a><span class="n">logger</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="s1">&#39;runtime_</span><span class="si">{time}</span><span class="s1">.log&#39;</span><span class="p">,</span> <span class="n">rotation</span><span class="o">=</span><span class="s1">&#39;00:00&#39;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+
+</details>
+
+<p>这样就可以实现每天 0 点新创建一个 log 文件输出了。 另外我们也可以配置 log 文件的循环时间，比如每隔一周创建一个 log 文件。</p>
+<details>
+<summary>点击展开代码</summary>
+
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-22-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1"></a><span class="n">logger</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="s1">&#39;runtime_</span><span class="si">{time}</span><span class="s1">.log&#39;</span><span class="p">,</span> <span class="n">rotation</span><span class="o">=</span><span class="s1">&#39;1 week&#39;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+
+</details>
+
+<p>这样我们就可以实现一周创建一个 log 文件了。</p>
+<h3 id="26-retention">2.6 retention 配置</h3>
+<p>retention 这个参数可以配置日志的最长保留时间。</p>
+<p>比如我们想要设置日志文件最长保留 10 天，可以这么来配置。</p>
+<details>
+<summary>点击展开代码</summary>
+
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-23-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1"></a><span class="n">logger</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="s1">&#39;runtime.log&#39;</span><span class="p">,</span> <span class="n">retention</span><span class="o">=</span><span class="s1">&#39;10 days&#39;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+
+</details>
+
+<p>这样 log 文件里面就会保留最新 10 天的 log。</p>
+<h3 id="27-compression">2.7 compression 配置</h3>
+<p>compression参数可以配置文件的压缩格式，比如使用 zip 文件格式保存。</p>
+<details>
+<summary>点击展开代码</summary>
+
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-24-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1"></a><span class="n">logger</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="s1">&#39;runtime.log&#39;</span><span class="p">,</span> <span class="n">compression</span><span class="o">=</span><span class="s1">&#39;zip&#39;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+
+</details>
+
+<h3 id="28">2.8 字符串格式化</h3>
+<p>loguru 在输出 log 的时候还提供了非常友好的字符串格式化功能。</p>
+<details>
+<summary>点击展开代码</summary>
+
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-25-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-25-1" name="__codelineno-25-1"></a><span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;If you are using Python </span><span class="si">{}</span><span class="s1">, prefer </span><span class="si">{feature}</span><span class="s1"> of course!&#39;</span><span class="p">,</span> <span class="mf">3.6</span><span class="p">,</span> <span class="n">feature</span><span class="o">=</span><span class="s1">&#39;f-strings&#39;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+
+</details>
+
+<h3 id="29-traceback">2.9 Traceback记录</h3>
+<p>loguru用它提供的装饰器就可以直接进行 Traceback 的记录，类似这样的配置即可。</p>
+<details>
+<summary>点击展开代码</summary>
+
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-26-1">1</a></span>
+<span class="normal"><a href="#__codelineno-26-2">2</a></span>
+<span class="normal"><a href="#__codelineno-26-3">3</a></span>
+<span class="normal"><a href="#__codelineno-26-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1"></a><span class="nd">@logger</span><span class="o">.</span><span class="n">catch</span>
+<a id="__codelineno-26-2" name="__codelineno-26-2"></a><span class="k">def</span> <span class="nf">my_function</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">):</span>
+<a id="__codelineno-26-3" name="__codelineno-26-3"></a>    <span class="c1"># An error? It&#39;s caught anyway!</span>
+<a id="__codelineno-26-4" name="__codelineno-26-4"></a>    <span class="k">return</span> <span class="mi">1</span> <span class="o">/</span> <span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="n">y</span> <span class="o">+</span> <span class="n">z</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+
+</details>
+
+<p>用如下命令调用：</p>
+<details>
+<summary>点击展开代码</summary>
+
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-27-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-27-1" name="__codelineno-27-1"></a><span class="n">my_function</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+
+</details>
+
+<p>更多loguru的强大功能请查找官方文档。</p>
+<h2 id="3">3.参考内容</h2>
+<p>原文：</p>
+<p><a href="https://cuiqingcai.com/6080.html">https://cuiqingcai.com/6080.html</a></p>
+<p><a href="https://cuiqingcai.com/7776.html">https://cuiqingcai.com/7776.html</a></p>
+<p>其他资料：</p>
+<p><a href="https://docs.python.org/3/library/logging.html">https://docs.python.org/3/library/logging.html</a></p>
+<p><a href="https://loguru.readthedocs.io/en/stable/index.html">https://loguru.readthedocs.io/en/stable/index.html</a></p>
 
 
 

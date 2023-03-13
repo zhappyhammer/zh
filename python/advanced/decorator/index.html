@@ -16,8 +16,8 @@
       
         <link rel="next" href="../iterator/">
       
-      <link rel="icon" href="../../../images/favicon.jpeg">
-      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.14">
+      <link rel="icon" href="../../../images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.15">
     
     
       
@@ -68,6 +68,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -82,7 +87,7 @@
   <nav class="md-header__inner md-grid" aria-label="页眉">
     <a href="../../.." title="happyhammer" class="md-header__button md-logo" aria-label="happyhammer" data-md-component="logo">
       
-  <img src="../../../images/favicon.jpeg" alt="logo">
+  <img src="../../../images/logo.jpeg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -334,7 +339,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="../../.." title="happyhammer" class="md-nav__button md-logo" aria-label="happyhammer" data-md-component="logo">
       
-  <img src="../../../images/favicon.jpeg" alt="logo">
+  <img src="../../../images/logo.jpeg" alt="logo">
 
     </a>
     happyhammer
@@ -630,6 +635,8 @@
       
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
+      
+        
       
       
       <a href="./" class="md-nav__link md-nav__link--active">
@@ -2442,10 +2449,48 @@
   
   
   
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_2" >
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_9_2" id="__nav_9_2_label" tabindex="0">
+          高效学习
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_9_2">
+          <span class="md-nav__icon md-icon"></span>
+          高效学习
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../../../goodarticle/howtobuildsystem/" class="md-nav__link">
-        程序员如何构建知识体系
+      <a href="../../../goodarticle/effstudy/learncode/" class="md-nav__link">
+        如何学习和阅读代码
       </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -2457,8 +2502,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../goodarticle/howtolearncode/" class="md-nav__link">
-        如何学习和阅读代码
+      <a href="../../../goodarticle/howtobuildsystem/" class="md-nav__link">
+        程序员如何构建知识体系
       </a>
     </li>
   
@@ -2488,6 +2533,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -2502,9 +2549,19 @@
                   
 
 
-  <h1>装饰器</h1>
-
-
+<h1 id="_1">装饰器</h1>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
+<span class="normal"><a href="#__codelineno-0-2">2</a></span>
+<span class="normal"><a href="#__codelineno-0-3">3</a></span>
+<span class="normal"><a href="#__codelineno-0-4">4</a></span>
+<span class="normal"><a href="#__codelineno-0-5">5</a></span>
+<span class="normal"><a href="#__codelineno-0-6">6</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="kn">import</span> <span class="nn">functools</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="k">def</span> <span class="nf">decorator</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3"></a>    <span class="nd">@functools</span><span class="o">.</span><span class="n">wraps</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4"></a>    <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5"></a>        <span class="k">return</span> <span class="n">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6"></a>    <span class="k">return</span> <span class="n">wrapper</span>
+</code></pre></div></td></tr></table></div>
 
 
 
