@@ -4,7 +4,7 @@ Python 定义了一些标准类型，用于存储各种类型的数据。
 
 Python有如下的数据类型：
 
-- Numbers（数字）【这里不做介绍了】
+- Numbers（数字）（int, long, float, complex）
 
 - String（字符串）
 
@@ -15,6 +15,8 @@ Python有如下的数据类型：
 - Set（集合）
 
 - Dictionary（字典）
+
+- boolean（True, False）
 
 列表，元组，集合，字典的区别如下表所示：
 
